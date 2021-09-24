@@ -1,11 +1,27 @@
+/*
+    font-family: 'Yaldevi', sans-serif;
+    
+    font-family: 'Roboto', sans-serif;
+
+https://coolors.co/9381ff-b8b8ff-f8f7ff-ffeedd-ffd8be    
+--medium-purple: #9381ff;
+--maximum-blue-purple: #b8b8ff;
+--ghost-white: #f8f7ff;
+--antique-white: #ffeedd;
+--unbleached-silk: #ffd8be; #ffebde --> I'm using this second option
+*/
+
+
 body {
-  background: #fafafa;
+  background: #ffebde; /* #ffeedd;  #fafafa; */
   color: #333333;
   margin-top: 5rem;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #444444;
+  color: #9381ff; /* #b8b8ff  #444444; */
+  font-family: 'Yaldevi', sans-serif;
 }
 
 ul {
@@ -17,7 +33,8 @@ ul {
 }
 
 .site-header .navbar-nav .nav-link {
-  color: #006400; /*#cbd5db;*/
+  color: #b8b8ff; /* #9381ff;  #cbd5db; */
+  font-weight: bold;
 }
 
 .site-header .navbar-nav .nav-link:hover {
@@ -29,7 +46,7 @@ ul {
 }
 
 .content-section {
-  background: #006400; /*#ffffff;*/
+  background: #ffffff;
   padding: 10px 20px;
   border: 1px solid #dddddd;
   border-radius: 3px;
@@ -37,16 +54,18 @@ ul {
 }
 
 .article-title {
-  color: #444444;
+  color: #9381ff; /* #b8b8ff;  #444444; */
+  font-weight: bold;
 }
 
 a.article-title:hover {
-  color: #428bca;
+  color: #ffd8be; /* #428bca; */
   text-decoration: none;
 }
 
 .article-content {
   white-space: pre-line;
+  background: #f8f7ff;
 }
 
 .article-img {
@@ -62,7 +81,7 @@ a.article-title:hover {
 }
 
 .article-metadata a:hover {
-  color: #333;
+  color: #ffd8be; /* #333; */
   text-decoration: none;
 }
 
@@ -81,4 +100,9 @@ a.article-title:hover {
 
 .account-heading {
   font-size: 2.5rem;
+}
+
+.sidebar {
+  background: #ffeedd;
+  font-family: 'Roboto', sans-serif;
 }
